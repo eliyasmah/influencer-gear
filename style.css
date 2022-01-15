@@ -242,8 +242,14 @@ margin:50px;
         flex-direction: column;
        
     }
+
     .collections{
         grid-template-columns: repeat(2, 1fr);
         flex-direction: column;
+    }   
+    .influencer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
   }
