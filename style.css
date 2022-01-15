@@ -123,7 +123,7 @@ margin:50px;
      margin: 30px;
    padding-top: 15px;
    padding-bottom: 15px;
-   border-radius: 5px;
+   border-radius: 10px;
    box-shadow: 5px 5px 30px #8a6b6b;
  }
  .collection-banner img{
@@ -231,8 +231,8 @@ margin:50px;
        text-align: center;
        margin-right: 40px;
      }
-     .influencer-Journey h1{
-         line-height: normal;
+     .influencer-Journey{
+        text-align: center;
      }
  }
   /* tablate divice  */ 
@@ -240,7 +240,6 @@ margin:50px;
     .header-content {
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
-       
     }
 
     .collections{
