@@ -55,7 +55,7 @@ margin:50px;
  }
  .influencer-Journey {
      width: 50%;
-     margin-left: 20px;
+     margin-left: 30px;
  }
  .influencer-Journey h1{
     font-size: 52px;
@@ -87,6 +87,17 @@ margin:50px;
 .influencer-image:hover{
     transform: scale(.5) rotate(360deg);
     border-radius: 20px;
+}
+/*-------------------------------------------------
+ Company logo start here
+ --------------------------------------------------*/
+.company-logo{
+    margin: 50px; 
+}
+.logos img{
+    height: 30px;
+    margin:0 30px;
+    padding: 10px 0;
 }
 
 /*------------------------------------------------
@@ -222,7 +233,17 @@ margin:50px;
      }
      .influencer-Journey h1{
          line-height: normal;
-
      }
-
  }
+  /* tablate divice  */ 
+  @media only screen and (min-width:688px) and (max-width:992px) {
+    .header-content {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+       
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+  }
